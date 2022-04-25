@@ -49,7 +49,7 @@ Plug 'kyazdani42/nvim-tree.lua'
 
 " A fuzzy finder 
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope.nvim', {'tag': 'nvim-0.6'}
 
 " This is a color theme plugin 
 Plug 'morhetz/gruvbox'
