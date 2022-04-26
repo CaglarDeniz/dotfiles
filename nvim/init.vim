@@ -96,7 +96,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts=1
 
 " Setting fuzzy finder plugin for dashboard-nvim 
-let g:dashboard_default_executive='telescope.nvim'
+let g:dashboard_default_executive='telescope'
 " " Setting dashboard header
 let g:dashboard_custom_header=['  ___ _   ___     _____ __  __  ____ ___ ____  _     _____', 
 \' |_ _| \ | \ \   / |_ _|  \/  |/ ___|_ _| __ )| |   | ____|',
