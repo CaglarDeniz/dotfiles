@@ -59,8 +59,14 @@ Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/vim-airline/vim-airline-themes'
 Plug 'mkitt/tabline.vim'
 
-" " A plugin to toggle terminal from inside vim ! 
+"A plugin to toggle terminal from inside vim ! 
 Plug 'akinsho/toggleterm.nvim' 
+
+" A plugin to display tags on a side tab 
+Plug 'preservim/tagbar' 
+
+" A plugin to have a prettier dashboard 
+Plug 'glepnir/dashboard-nvim'
 
 " This plug is for syntax highlighting for kitty.conf files 
 Plug 'fladson/vim-kitty'
@@ -89,6 +95,26 @@ let g:gruvbox_contrast_dark='hard'
 let g:airline#extensions#tabline#enabled = 1 
 let g:airline_powerline_fonts=1
 
+" Setting fuzzy finder plugin for dashboard-nvim 
+let g:dashboard_default_executive='telescope.nvim'
+" " Setting dashboard header
+let g:dashboard_custom_header=['  ___ _   ___     _____ __  __  ____ ___ ____  _     _____', 
+\' |_ _| \ | \ \   / |_ _|  \/  |/ ___|_ _| __ )| |   | ____|',
+\'  | ||  \| |\ \ / / | || |\/| | |    | ||  _ \| |   |  _|',  
+\'  | || |\  | \ V /  | || |  | | |___ | || |_) | |___| |___', 
+\' |___|_| \_|  \_/  |___|_|  |_|\____|___|____/|_____|_____|']
+                                                           
+" " Setting custom telescope keyboards for dashboard 
+" let g:dashboard_custom_shortcut={
+" \ 'last_session'       : 'SPC s l',
+" \ 'find_history'       : 'SPC f h',
+" \ 'find_file'          : 'SPC f f',
+" \ 'new_file'           : 'SPC c n',
+" \ 'change_colorscheme' : 'SPC t c',
+" \ 'find_word'          : 'SPC f a',
+" \ 'book_marks'         : 'SPC f b',
+" \}
+
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
 		lua require'dap'.list_breakpoints()
@@ -107,8 +133,8 @@ let mapleader = " "
 " Find files using Telescope command-line sugar.
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
-nnoremap <leader>fb <cmd>Telescope buffers<cr>
-nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+nnoremap <leader>fbu<cmd>Telescope buffers<cr>
+nnoremap <leader>fhe<cmd>Telescope help_tags<cr>
 
 " Key mappings for DAP 
 
@@ -278,7 +304,9 @@ map("n","<A-q>","<cmd>tabclose<CR>",opts)
 -- Save files
 map("n","<leader>s","<cmd>w<CR>",opts)
 -- Open NvimTree 
-map("n","<leader>t","<cmd>NvimTreeToggle<CR>",opts)
+map("n","<leader>n","<cmd>NvimTreeToggle<CR>",opts)
+-- Open Tagbar
+map("n","<leader>t","<cmd>TagbarToggle<CR>",opts)
 
 
   -- Adding a handler for installing language servers 
