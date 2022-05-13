@@ -250,7 +250,7 @@ require'nvim-treesitter.configs'.setup {
     })
 
   -- Some key mappings for nvim-cmp and lsp 
-  local opts = { noremap = true, silent = true}
+  local opts = { noremap = true, silent = false}
   vim.api.nvim_buf_set_keymap(bufnr, "n", "gD", "<cmd>lua vim.lsp.buf.declaration()<CR>", opts)
   vim.api.nvim_buf_set_keymap(bufnr, "n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", opts)
   vim.api.nvim_buf_set_keymap(bufnr, "n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts)
@@ -325,6 +325,24 @@ end)
 
 -- Setting up nvim-tree
 require 'nvim-tree'.setup()
+
+-- Setting up DAP for Javascript 
+local dap = require('dap')
+dap.adapters.firefox = {
+  type = 'executable',
+  command = 'node',
+  args = {os.getenv('HOME') .. '/path/to/vscode-firefox-debug/dist/adapter.bundle.js'},
+}
+
+dap.configurations.typescript = {
+  name = 'Debug with Firefox',
+  type = 'firefox',
+  request = 'launch',
+  reAttach = true,
+  url = 'http://localhost:3000',
+  webRoot = '${workspaceFolder}',
+  firefoxExecutable = '/usr/bin/firefox'
+}
 
 -- Setting up DAP for cpp and c 
 
