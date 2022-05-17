@@ -249,20 +249,21 @@ require'nvim-treesitter.configs'.setup {
       })
     })
 
+  -- Adding better mappings for windows, tabs, and buffers , and plugins
+
+ local map = vim.api.nvim_set_keymap
+
   -- Some key mappings for nvim-cmp and lsp 
   local opts = { noremap = true, silent = false}
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gD", "<cmd>lua vim.lsp.buf.declaration()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gr", "<cmd>lua vim.lsp.buf.references()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "go", "<cmd>lua vim.diagnostic.open_float()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "[d", '<cmd>lua vim.diagnostic.goto_prev({ border = "rounded" })<CR>', opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "]d", '<cmd>lua vim.diagnostic.goto_next({ border = "rounded" })<CR>', opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>p", "<cmd>lua vim.diagnostic.setloclist()<CR>", opts)
+	map( "n", "gD", "<cmd>lua vim.lsp.buf.declaration()<CR>", opts)
+	map( "n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", opts)
+	map( "n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts)
+	map( "n", "gr", "<cmd>lua vim.lsp.buf.references()<CR>", opts)
+	map( "n", "go", "<cmd>lua vim.diagnostic.open_float()<CR>", opts)
+	map( "n", "[d", '<cmd>lua vim.diagnostic.goto_prev({ border = "rounded" })<CR>', opts)
+	map( "n", "]d", '<cmd>lua vim.diagnostic.goto_next({ border = "rounded" })<CR>', opts)
+	map( "n", "<leader>p", "<cmd>lua vim.diagnostic.setloclist()<CR>", opts)
 
--- Adding better mappings for windows, tabs, and buffers 
-
-local map = vim.api.nvim_set_keymap
 
 -- Better window navigation
 map("n", "<C-h>", "<C-w>h", opts)
@@ -420,5 +421,3 @@ require("toggleterm").setup{
 }
 
 EOF
-
-
