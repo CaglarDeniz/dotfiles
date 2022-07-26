@@ -7,9 +7,9 @@ set completeopt=menu,menuone,noselect
 set relativenumber
 set termguicolors
 set cul
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set hidden
 
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
@@ -71,11 +71,11 @@ Plug 'glepnir/dashboard-nvim'
 " This plug is for syntax highlighting for kitty.conf files 
 Plug 'fladson/vim-kitty'
 
-" This plugin is for editing latex files
-Plug 'lervag/vimtex'
-
 " A plugin for the DAP protocol on nvim
 Plug 'mfussenegger/nvim-dap'
+
+" A plugin for formatting multiple file types
+Plug 'sbdchd/neoformat'
 
 call plug#end()
 
@@ -97,23 +97,6 @@ let g:airline_powerline_fonts=1
 
 " Setting fuzzy finder plugin for dashboard-nvim 
 let g:dashboard_default_executive='telescope'
-" " Setting dashboard header
-let g:dashboard_custom_header=['  ___ _   ___     _____ __  __  ____ ___ ____  _     _____', 
-\' |_ _| \ | \ \   / |_ _|  \/  |/ ___|_ _| __ )| |   | ____|',
-\'  | ||  \| |\ \ / / | || |\/| | |    | ||  _ \| |   |  _|',  
-\'  | || |\  | \ V /  | || |  | | |___ | || |_) | |___| |___', 
-\' |___|_| \_|  \_/  |___|_|  |_|\____|___|____/|_____|_____|']
-                                                           
-" " Setting custom telescope keyboards for dashboard 
-" let g:dashboard_custom_shortcut={
-" \ 'last_session'       : 'SPC s l',
-" \ 'find_history'       : 'SPC f h',
-" \ 'find_file'          : 'SPC f f',
-" \ 'new_file'           : 'SPC c n',
-" \ 'change_colorscheme' : 'SPC t c',
-" \ 'find_word'          : 'SPC f a',
-" \ 'book_marks'         : 'SPC f b',
-" \}
 
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
@@ -275,6 +258,9 @@ map("n", "<C-l>", "<C-w>l", opts)
 map("n", "<C-v>", "<cmd>vsplit<CR>",opts)
 map("n", "<C-b>", "<cmd>split<CR>",opts)
 
+--- Reformat current buffer
+map("n","<C-f>","<cmd>Neoformat<CR>",opts)
+
 -- Resize windows with arrows
 map("n", "<C-Up>", "<cmd>resize -2<CR>", opts)
 map("n", "<C-Down>", "<cmd>resize +2<CR>", opts)
@@ -309,7 +295,61 @@ map("n","<leader>n","<cmd>NvimTreeToggle<CR>",opts)
 -- Open Tagbar
 map("n","<leader>t","<cmd>TagbarToggle<CR>",opts)
 
-
+-- Setting dashboard header
+  local home = os.getenv('HOME')
+  local db = require('dashboard')
+	db.custom_header = {
+\'',
+\'',
+\'',
+\'',
+\'',
+\'',
+\'',
+\'',
+\ ' ███╗   ██╗ ███████╗ ██████╗  ██╗   ██╗ ██╗ ███╗   ███╗',
+\ ' ████╗  ██║ ██╔════╝██╔═══██╗ ██║   ██║ ██║ ████╗ ████║',
+\ ' ██╔██╗ ██║ █████╗  ██║   ██║ ██║   ██║ ██║ ██╔████╔██║',
+\ ' ██║╚██╗██║ ██╔══╝  ██║   ██║ ╚██╗ ██╔╝ ██║ ██║╚██╔╝██║',
+\ ' ██║ ╚████║ ███████╗╚██████╔╝  ╚████╔╝  ██║ ██║ ╚═╝ ██║',
+\ ' ╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝',
+\'',
+\'',
+\'',
+\'',
+\'',
+\'',
+\'',
+\'',
+\}
+  db.preview_file_height = 12
+  db.preview_file_width = 80
+  db.custom_center = {
+      {icon = '  ',
+      desc = 'Latest session                          ',
+			action ='SessionLoad',
+      shortcut = 'SPC s l'},
+      {icon = '  ',
+      desc = 'Recently opened files                   ',
+      action =  'DashboardFindHistory',
+      shortcut = 'SPC f h'},
+      {icon = '  ',
+      desc = 'Find  File                              ',
+      action = 'Telescope find_files find_command=rg,--hidden,--files',
+      shortcut = 'SPC f f'},
+      {icon = '  ',
+      desc ='File Browser                            ',
+      action =  'Telescope file_browser',
+      shortcut = 'SPC f b'},
+      {icon = '  ',
+      desc = 'Find  word                              ',
+      action = 'Telescope live_grep',
+      shortcut = 'SPC f w'},
+      {icon = '  ',
+      desc = 'Open Personal dotfiles                  ',
+      action = 'Telescope dotfiles path=' .. home ..'/.dotfiles',
+      shortcut = 'SPC f d'},
+    }
   -- Adding a handler for installing language servers 
 
 local lsp_installer = require "nvim-lsp-installer"
