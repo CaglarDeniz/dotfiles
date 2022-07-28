@@ -1,0 +1,7 @@
+cd+++++++++ i3status/
+>f+++++++++ i3status/config
+cd+++++++++ ibus/
+cd+++++++++ ibus/bus/
+>f+++++++++ ibus/bus/0c9044ee8dca4589a686d83db9b2da0e-unix-0
+>f+++++++++ ibus/bus/0c9044ee8dca4589a686d83db9b2da0e-unix-1
+>f+++++++++ ibus/bus/0c9044ee8dca4589a686d83db9b2da0e-unix-wayland-0
