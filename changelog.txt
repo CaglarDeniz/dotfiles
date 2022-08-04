@@ -25,3 +25,8 @@ cannot delete non-empty directory: rofi
 .d..t...... nvim/
 >f.st...... nvim/init.vim
 rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1326) [sender=3.2.4]
+could not make way for new symlink: polybar
+could not make way for new symlink: rofi
+cannot delete non-empty directory: polybar
+cannot delete non-empty directory: rofi
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1326) [sender=3.2.4]
