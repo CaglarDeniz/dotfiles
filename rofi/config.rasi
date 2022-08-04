@@ -1,11 +1,11 @@
 configuration {
-/*	modi: "window,run,ssh";*/
-/*	font: "mono 12";*/
+	modi: "window,run,ssh,keys,filebrowser,calc";
+	font: "mono 13";
 /*	location: 0;*/
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
 /*	fixed-num-lines: true;*/
-/*	show-icons: false;*/
+	show-icons: true;
 	terminal: "/usr/bin/kitty";
 /*	ssh-client: "ssh";*/
 /*	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";*/
@@ -44,7 +44,7 @@ configuration {
 /*	click-to-exit: true;*/
 /*	max-history-size: 25;*/
 /*	combi-hide-mode-prefix: false;*/
-/*	combi-display-format: "{mode} {text}";*/
+	combi-display-format: " {text}";
 /*	matching-negate-char: '-' /* unsupported */;*/
 /*	cache-dir: ;*/
 /*	window-thumbnail: false;*/

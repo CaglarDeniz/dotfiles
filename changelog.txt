@@ -14,3 +14,14 @@ cd+++++++++ ibus/bus/
 >f..t...... ibus/bus/0c9044ee8dca4589a686d83db9b2da0e-unix-0
 >f..t...... ibus/bus/0c9044ee8dca4589a686d83db9b2da0e-unix-1
 >f..t...... ibus/bus/0c9044ee8dca4589a686d83db9b2da0e-unix-wayland-0
+could not make way for new symlink: polybar
+could not make way for new symlink: rofi
+cannot delete non-empty directory: polybar
+cannot delete non-empty directory: rofi
+.d..t...... i3/
+>f..t...... i3/config
+.d..t...... kitty/
+>f..t...... kitty/kitty.conf
+.d..t...... nvim/
+>f.st...... nvim/init.vim
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1326) [sender=3.2.4]
