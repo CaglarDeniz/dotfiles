@@ -22,6 +22,10 @@ sudo pacman -Ry --noconfirm vim
 # Changing user shell to zsh 
 sudo chsh -s /usr/bin/zsh deniz
 
+# installing user font
+mkdir -p /usr/share/fonts/sauce-code-pro
+rsync ../dotfiles/fonts/Sauce\ Code\ Pro\ Semibold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf
+
 # activating lightdm
 sudo systemctl enable lightdm.service
 
