@@ -1,0 +1,10 @@
+2022/07/30-04:45:19.824 47d8 Reusing MANIFEST /home/deniz/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/30-04:45:19.824 47d8 Recovering log #78
+2022/07/30-04:45:19.877 47d8 Reusing old log /home/deniz/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000078.log 
+2022/07/30-04:45:20.613 4801 Level-0 table #83: started
+2022/07/30-04:45:20.659 4801 Level-0 table #83: 1440504 bytes OK
+2022/07/30-04:45:20.694 4801 Delete type=0 #78
+2022/07/30-04:45:20.945 4791 Compacting 1@1 + 1@2 files
+2022/07/30-04:45:20.979 4791 Generated table #84@1: 1500 keys, 146622 bytes
+2022/07/30-04:45:20.979 4791 Compacted 1@1 + 1@2 files => 146622 bytes
+2022/07/30-04:45:20.994 4791 compacted to: files[ 0 0 1 0 0 0 0 ]

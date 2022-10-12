@@ -11,6 +11,7 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set hidden
+set autoindent
 
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
@@ -36,9 +37,12 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 
-" For luasnip users.
-Plug 'L3MON4D3/LuaSnip'
+" A snipping engine to provide templates for common code 
+Plug 'L3MON4D3/LuaSnip' , {'tag':'v<CurrentMajor>.*'}
 Plug 'saadparwaiz1/cmp_luasnip'
+
+" A plugin to match parentheses.
+Plug 'cohama/lexima.vim'
 
 " Plugin for easily installing language servers 
 Plug 'williamboman/nvim-lsp-installer'
@@ -97,6 +101,11 @@ let g:airline_powerline_fonts=1
 
 " Setting fuzzy finder plugin for dashboard-nvim 
 let g:dashboard_default_executive='telescope'
+
+" Enable default bracket close rules
+let g:lexima_enable_basic_rules = 1
+let g:lexima_enable_newline_rules = 1
+let g:lexima_enable_endwise_rules = 1
 
 function! ToggleQuickFix()
     if empty(filter(getwininfo(), 'v:val.quickfix'))
