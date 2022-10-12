@@ -257,5 +257,7 @@ export EDITOR=/usr/bin/vim
 alias icat="kitty +kitten icat"
 alias docker=podman
 
+if [ -n "`xrandr -q | grep eDP`" ]; then
 # command to prevent screen tearing
-xrandr --output eDP --set TearFree on
+	xrandr --output eDP --set TearFree on
+fi
