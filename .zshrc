@@ -1,18 +1,4 @@
 # Created by newuser for 5.8.1
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/deniz/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/deniz/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/deniz/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/deniz/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
 # ~/.zshrc file for zsh interactive shells.
 # see /usr/share/doc/zsh/examples/zshrc for examples
 
@@ -106,7 +92,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 configure_prompt() {
-    prompt_symbol=🌹
+    prompt_symbol=🧷
     [ "$EUID" -eq 0 ] && prompt_symbol=💀
     case "$PROMPT_ALTERNATIVE" in
         twoline)
@@ -266,4 +252,10 @@ if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
 
-export PATH="${PATH}:${HOME}/.local/bin/"
+export PATH="${PATH}:/home/deniz/miniconda3/bin:/home/deniz/.spicetify/:/home/deniz/.local/bin:/home/deniz/Desktop/ece408/bin"
+export EDITOR=/usr/bin/vim
+alias icat="kitty +kitten icat"
+alias docker=podman
+
+# command to prevent screen tearing
+xrandr --output eDP --set TearFree on
