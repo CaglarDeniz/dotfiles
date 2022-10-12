@@ -249,13 +249,13 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection c
 # }
 
 # changing wallpaper
-exec_always feh --bg-fill Pictures/pixelart_wallpaper.png
+exec_always feh --bg-fill ~/.config/pixelart_wallpaper.png 
 
 #starting picom for transparency
-exec_always --no-startup-id "picom --config /home/deniz/.config/picom.conf"
+exec_always --no-startup-id "picom --config ~/.config/picom.conf"
 
 # starting polybar
-exec_always --no-startup-id /home/deniz/.config/polybar/launch.sh
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a
