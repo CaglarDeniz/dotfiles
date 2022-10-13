@@ -23,8 +23,14 @@ sudo pacman -Ry --noconfirm vim
 sudo chsh -s /usr/bin/zsh deniz
 
 # installing user font
-mkdir -p /usr/share/fonts/sauce-code-pro
-rsync ../dotfiles/fonts/Sauce\ Code\ Pro\ Semibold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf
+sudo mkdir -p /usr/share/fonts/sauce-code-pro
+sudo rsync ../dotfiles/fonts/Sauce\ Code\ Pro\ Semibold\ Italic\ Nerd\ Font\ Complete\ Mono.ttf /usr/share/fonts/
+# updating font cache
+fc-cache -r
+
+# installing vim-plug for nvim
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 # activating lightdm
 sudo systemctl enable lightdm.service
