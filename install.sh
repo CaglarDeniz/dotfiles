@@ -17,7 +17,7 @@
 sudo pacman -Sy --noconfirm i3 i3status ibus kitty neovim polybar ranger rofi picom git rsync zsh zsh-autosuggestions zsh-syntax-highlighting lightdm lightdm-gtk-greeter feh
 
 # Removing vim for user to let nvim take its place
-sudo pacman -Ry --noconfirm vim
+sudo pacman -R --noconfirm vim
 
 # Changing user shell to zsh 
 sudo chsh -s /usr/bin/zsh deniz
