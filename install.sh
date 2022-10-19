@@ -14,7 +14,7 @@
 # feh for background image management
 
 # Installing required packages
-sudo pacman -Sy --noconfirm i3 i3status ibus kitty neovim polybar ranger rofi picom git rsync zsh zsh-autosuggestions zsh-syntax-highlighting lightdm lightdm-gtk-greeter feh
+sudo pacman -Sy --noconfirm i3 i3status ibus kitty neovim polybar ranger rofi picom git rsync zsh zsh-autosuggestions zsh-syntax-highlighting lightdm lightdm-gtk-greeter feh xclip
 
 # Removing vim for user to let nvim take its place
 sudo pacman -R --noconfirm vim
