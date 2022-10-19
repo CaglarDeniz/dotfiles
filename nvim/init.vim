@@ -349,7 +349,7 @@ local lsp_installer = require "nvim-lsp-installer"
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 local cmp_nvim_lsp =  require "cmp_nvim_lsp"
 
-local cap = cmp_nvim_lsp.update_capabilities(capabilities)
+local cap = cmp_nvim_lsp.default_capabilities(capabilities)
 
 lsp_installer.on_server_ready(function(server)
   local opts = server:get_default_options()
