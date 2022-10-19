@@ -18,7 +18,7 @@ sudo pacman -Sy --noconfirm i3 i3status ibus kitty neovim polybar ranger rofi pi
 
 # Removing vim for user to let nvim take its place
 sudo pacman -R --noconfirm vim
-ln -sf /usr/bin/nvim /usr/bin/vim
+sudo ln -s /usr/bin/nvim /usr/bin/vim
 # Create empty vimrc if no vimrc exists
 touch ~/.vimrc
 
