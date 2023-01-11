@@ -38,14 +38,16 @@ Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 
 " A snipping engine to provide templates for common code 
-Plug 'L3MON4D3/LuaSnip' , {'tag':'v<CurrentMajor>.*'}
+Plug 'L3MON4D3/LuaSnip' 
+Plug 'rafamadriz/friendly-snippets'
 Plug 'saadparwaiz1/cmp_luasnip'
 
 " A plugin to match parentheses.
 Plug 'cohama/lexima.vim'
 
 " Plugin for easily installing language servers 
-Plug 'williamboman/nvim-lsp-installer'
+Plug 'williamboman/mason.nvim'
+Plug 'williamboman/mason-lspconfig.nvim'
 
 " Plugin for seeing a function tree in nvim 
 Plug 'kyazdani42/nvim-web-devicons'
@@ -129,7 +131,6 @@ nnoremap <leader>fbu<cmd>Telescope buffers<cr>
 nnoremap <leader>fhe<cmd>Telescope help_tags<cr>
 
 " Key mappings for DAP 
-
 nnoremap <silent> <leader>dc :lua require'dap'.continue()<CR>
 nnoremap <silent> <leader>dn :lua require'dap'.step_over()<CR>
 nnoremap <silent> <leader>ds :lua require'dap'.step_into()<CR>
@@ -172,7 +173,19 @@ require'nvim-treesitter.configs'.setup {
   }
 }
 
--- Setup nvim-cmp.
+-- Load snippets from friendly-snippets
+
+require("luasnip.loaders.from_vscode").lazy_load()
+
+ -- Set up nvim-cmp.
+
+ local has_words_before = function()
+		unpack = unpack or table.unpack
+		local line, col = unpack(vim.api.nvim_win_get_cursor(0))
+		return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match("%s") == nil
+	end
+
+	local luasnip = require("luasnip")
   local cmp = require'cmp'
 
   cmp.setup({
@@ -180,33 +193,47 @@ require'nvim-treesitter.configs'.setup {
       -- REQUIRED - you must specify a snippet engine
       expand = function(args)
         --vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` users.
-         require('luasnip').lsp_expand(args.body) -- For `luasnip` users.
+        require('luasnip').lsp_expand(args.body) -- For `luasnip` users.
         -- require('snippy').expand_snippet(args.body) -- For `snippy` users.
         -- vim.fn["UltiSnips#Anon"](args.body) -- For `ultisnips` users.
       end,
-      },
-      window = {
-        -- completion = cmp.config.window.bordered(),
-        -- documentation = cmp.config.window.bordered(),
-      },
-      mapping = cmp.mapping.preset.insert({
- ["<C-p>"] = cmp.mapping.select_prev_item(),
-      ["<C-n>"] = cmp.mapping.select_next_item(),
-      ["<C-d>"] = cmp.mapping.scroll_docs(-4),
-      ["<C-f>"] = cmp.mapping.scroll_docs(4),
-      ["<C-Space>"] = cmp.mapping.complete(),
-      ["<C-e>"] = cmp.mapping.close(),
-      ["<CR>"] = cmp.mapping.confirm({
-         behavior = cmp.ConfirmBehavior.Replace,
-         select = true,
-      }),
-      ["<Tab>"] = cmp.mapping(cmp.mapping.select_next_item(), { "i", "s" }),
-      ["<S-Tab>"] = cmp.mapping(cmp.mapping.select_prev_item(), { "i", "s" }),
-      }),
+    },
+    window = {
+       completion = cmp.config.window.bordered(),
+       documentation = cmp.config.window.bordered(),
+    },
+    mapping = cmp.mapping.preset.insert({
+      ['<C-b>'] = cmp.mapping.scroll_docs(-4),
+      ['<C-f>'] = cmp.mapping.scroll_docs(4),
+      ['<C-Space>'] = cmp.mapping.complete(),
+      ['<C-e>'] = cmp.mapping.abort(),
+      ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+			 ["<Tab>"] = cmp.mapping(function(fallback)
+      if cmp.visible() then
+        cmp.select_next_item()
+      elseif luasnip.expand_or_jumpable() then
+        luasnip.expand_or_jump()
+      elseif has_words_before() then
+        cmp.complete()
+      else
+        fallback()
+      end
+    end, { "i", "s" }),
+
+    ["<S-Tab>"] = cmp.mapping(function(fallback)
+      if cmp.visible() then
+        cmp.select_prev_item()
+      elseif luasnip.jumpable(-1) then
+        luasnip.jump(-1)
+      else
+        fallback()
+      end
+    end, { "i", "s" }),
+    }),
     sources = cmp.config.sources({
       { name = 'nvim_lsp' },
       --{ name = 'vsnip' }, -- For vsnip users.
-       { name = 'luasnip' }, -- For luasnip users.
+      { name = 'luasnip' }, -- For luasnip users.
       -- { name = 'ultisnips' }, -- For ultisnips users.
       -- { name = 'snippy' }, -- For snippy users.
     }, {
@@ -217,29 +244,29 @@ require'nvim-treesitter.configs'.setup {
   -- Set configuration for specific filetype.
   cmp.setup.filetype('gitcommit', {
     sources = cmp.config.sources({
-      { name = 'cmp_git' }, -- You can specify the `cmp_git` source if you were installed it. 
+      --{ name = 'cmp_git' }, -- You can specify the `cmp_git` source if you were installed it.
     }, {
       { name = 'buffer' },
     })
   })
 
-    -- `/` cmdline setup.
-    cmp.setup.cmdline('/', {
-      mapping = cmp.mapping.preset.cmdline(),
-      sources = {
-        { name = 'buffer' }
-      }
-    })
+  -- Use buffer source for `/` and `?` (if you enabled `native_menu`, this won't work anymore).
+  cmp.setup.cmdline({ '/', '?' }, {
+    mapping = cmp.mapping.preset.cmdline(),
+    sources = {
+      { name = 'buffer' }
+    }
+  })
 
-    -- `:` cmdline setup.
-    cmp.setup.cmdline(':', {
-      mapping = cmp.mapping.preset.cmdline(),
-      sources = cmp.config.sources({
-        { name = 'path' }
-      }, {
-        { name = 'cmdline' }
-      })
+  -- Use cmdline & path source for ':' (if you enabled `native_menu`, this won't work anymore).
+  cmp.setup.cmdline(':', {
+    mapping = cmp.mapping.preset.cmdline(),
+    sources = cmp.config.sources({
+      { name = 'path' }
+    }, {
+      { name = 'cmdline' }
     })
+  })
 
   -- Adding better mappings for windows, tabs, and buffers , and plugins
 
@@ -247,14 +274,6 @@ require'nvim-treesitter.configs'.setup {
 
   -- Some key mappings for nvim-cmp and lsp 
   local opts = { noremap = true, silent = false}
-	map( "n", "gD", "<cmd>lua vim.lsp.buf.declaration()<CR>", opts)
-	map( "n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", opts)
-	map( "n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts)
-	map( "n", "gr", "<cmd>lua vim.lsp.buf.references()<CR>", opts)
-	map( "n", "go", "<cmd>lua vim.diagnostic.open_float()<CR>", opts)
-	map( "n", "[d", '<cmd>lua vim.diagnostic.goto_prev({ border = "rounded" })<CR>', opts)
-	map( "n", "]d", '<cmd>lua vim.diagnostic.goto_next({ border = "rounded" })<CR>', opts)
-	map( "n", "<leader>p", "<cmd>lua vim.diagnostic.setloclist()<CR>", opts)
 
 
 -- Better window navigation
@@ -343,88 +362,117 @@ map("n","<leader>t","<cmd>TagbarToggle<CR>",opts)
       action = 'Telescope find_files find_command=rg,--hidden,--files',
       shortcut = 'SPC f f'},
     }
-  -- Adding a handler for installing language servers 
 
-local lsp_installer = require "nvim-lsp-installer"
+ -- Setup mason.nvim
+local mason  = require('mason').setup()
+local mason_lspconfig = require('mason-lspconfig')
+
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 local cmp_nvim_lsp =  require "cmp_nvim_lsp"
 
 local cap = cmp_nvim_lsp.default_capabilities(capabilities)
+vim.keymap.set('n', '<space>e', vim.diagnostic.open_float, opts)
+vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, opts)
+vim.keymap.set('n', ']d', vim.diagnostic.goto_next, opts)
+vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist, opts)
 
-lsp_installer.on_server_ready(function(server)
-  local opts = server:get_default_options()
-  opts.capabilities = cap
-  server:setup(opts)
-end)
+-- Use an on_attach function to only map the following keys
+-- after the language server attaches to the current buffer
+local on_attach = function(client, bufnr)
+  -- Enable completion triggered by <c-x><c-o>
+  vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
+
+  -- Mappings.
+  -- See `:help vim.lsp.*` for documentation on any of the below functions
+  local bufopts = { noremap=true, silent=true, buffer=bufnr }
+  vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, bufopts)
+  vim.keymap.set('n', 'gd', vim.lsp.buf.definition, bufopts)
+  vim.keymap.set('n', 'K', vim.lsp.buf.hover, bufopts)
+  vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, bufopts)
+  vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help, bufopts)
+  vim.keymap.set('n', '<space>wa', vim.lsp.buf.add_workspace_folder, bufopts)
+  vim.keymap.set('n', '<space>wr', vim.lsp.buf.remove_workspace_folder, bufopts)
+  vim.keymap.set('n', '<space>wl', function()
+    print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
+  end, bufopts)
+  vim.keymap.set('n', '<space>D', vim.lsp.buf.type_definition, bufopts)
+  vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, bufopts)
+  vim.keymap.set('n', '<space>ca', vim.lsp.buf.code_action, bufopts)
+  vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts)
+  vim.keymap.set('n', '<space>f', function() vim.lsp.buf.format { async = true } end, bufopts)
+end
+
+local lsp_flags = {
+  -- This is the default in Nvim 0.7+
+  debounce_text_changes = 150,
+}
+
+local lsp = require('lspconfig')
+
+for index,server in ipairs(mason_lspconfig.get_installed_servers()) do 
+
+	lsp[server].setup {
+		on_attach = on_attach,
+		flags = lsp_flags,
+	}
+	end
 
 -- Setting up nvim-tree
 require 'nvim-tree'.setup()
 
--- Setting up DAP for Javascript 
-local dap = require('dap')
-dap.adapters.firefox = {
-  type = 'executable',
-  command = 'node',
-  args = {os.getenv('HOME') .. '/path/to/vscode-firefox-debug/dist/adapter.bundle.js'},
-}
-
-dap.configurations.typescript = {
-  name = 'Debug with Firefox',
-  type = 'firefox',
-  request = 'launch',
-  reAttach = true,
-  url = 'http://localhost:3000',
-  webRoot = '${workspaceFolder}',
-  firefoxExecutable = '/usr/bin/firefox'
-}
-
--- Setting up DAP for cpp and c 
+-- Setting DAP codelldb
 
 local dap = require('dap')
-dap.adapters.lldb = {
-  type = 'executable',
-  command = '/usr/bin/lldb-vscode', -- adjust as needed
-  name = "lldb"
-}
+
+dap.adapters.codelldb = {
+	type = 'server',
+	port = "${port}",
+	executable = {
+		command = '/home/deniz/.local/share/nvim/mason/packages/codelldb/codelldb',
+		args = {"--port","${port}"},
+		}
+	}
 
 dap.configurations.cpp = {
   {
-    name = "Launch",
-    type = "lldb",
+    name = "Launch file",
+    type = "codelldb",
     request = "launch",
     program = function()
       return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/', 'file')
     end,
     cwd = '${workspaceFolder}',
     stopOnEntry = false,
-    args = {},
-
-    -- 💀
-    -- if you change `runInTerminal` to true, you might need to change the yama/ptrace_scope setting:
-    --
-    --    echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
-    --
-    -- Otherwise you might get the following error:
-    --
-    --    Error on launch: Failed to attach to the target process
-    --
-    -- But you should be aware of the implications:
-    -- https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html
-
-    runInTerminal = false,
-
-    -- 💀
-    -- If you use `runInTerminal = true` and resize the terminal window,
-    -- lldb-vscode will receive a `SIGWINCH` signal which can cause problems
-    -- To avoid that uncomment the following option
-    -- See https://github.com/mfussenegger/nvim-dap/issues/236#issuecomment-1066306073
-    postRunCommands = {'process handle -p true -s false -n false SIGWINCH'}
-  },
+	},
 }
-
-
 -- If you want to use this for rust and c, add something like this:
 dap.configurations.c = dap.configurations.cpp
+dap.configurations.rust = dap.configurations.cpp
+
+dap.adapters.node2 = {
+  type = 'executable',
+  command = '/home/deniz/.local/share/nvim/mason/packages/node-debug2-adapter/node-debug2-adapter',
+	args = {}
+}
+dap.configurations.javascript = {
+  {
+    name = 'Launch',
+    type = 'node2',
+    request = 'launch',
+    program = '${file}',
+    cwd = vim.fn.getcwd(),
+    sourceMaps = true,
+    protocol = 'inspector',
+    console = 'integratedTerminal',
+  },
+  {
+    -- For this to work you need to make sure the node process is started with the `--inspect` flag.
+    name = 'Attach to process',
+    type = 'node2',
+    request = 'attach',
+    processId = require'dap.utils'.pick_process,
+  },
+}
 
 -- Toggleterm setup 
 
