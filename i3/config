@@ -39,7 +39,7 @@ exec --no-startup-id nm-applet
 
 # shortcut for launching firefox
 
-bindsym Mod4+w exec --no-startup-id firefox
+bindsym Mod4+w exec --no-startup-id firefox --browser
 
 # disabling window titlebars, to get i3-gaps working 
 
@@ -67,8 +67,11 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # use brightnessctl to adjust screen brightness 
 
-bindcode 232 exec --no-startup-id brightnessctl --quiet set 5%-
-bindcode 233 exec --no-startup-id brightnessctl --quiet set +5%
+bindcode 173 exec --no-startup-id brightnessctl --quiet set 5%- && $refresh_i3status
+bindcode 171 exec --no-startup-id brightnessctl --quiet set +5% && $refresh_i3status
+
+bindcode 232 exec --no-startup-id brightnessctl --quiet set 5%- && $refresh_i3status
+bindcode 233 exec --no-startup-id brightnessctl --quiet set +5% && $refresh_i3status
 
 # use these keys for focus, movement, and resize directions when reaching for
 # the arrows is not convenient
@@ -252,7 +255,7 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection c
 # }
 
 # changing wallpaper
-exec_always feh --bg-fill ~/.config/i3/pixelart_wallpaper.png 
+exec_always feh --bg-fill ~/.config/i3/elif_wallpaper.png 
 
 #starting picom for transparency
 exec_always --no-startup-id "picom --config ~/.config/picom.conf"
