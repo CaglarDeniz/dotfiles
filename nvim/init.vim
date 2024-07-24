@@ -83,6 +83,9 @@ Plug 'mfussenegger/nvim-dap'
 " A plugin for formatting multiple file types
 Plug 'sbdchd/neoformat'
 
+" Falling leaves on the dashboard
+Plug 'folke/drop.nvim'
+
 call plug#end()
 
 
@@ -129,18 +132,6 @@ nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fbu<cmd>Telescope buffers<cr>
 nnoremap <leader>fhe<cmd>Telescope help_tags<cr>
-
-" Key mappings for DAP 
-nnoremap <silent> <leader>dc :lua require'dap'.continue()<CR>
-nnoremap <silent> <leader>dn :lua require'dap'.step_over()<CR>
-nnoremap <silent> <leader>ds :lua require'dap'.step_into()<CR>
-nnoremap <silent> <leader>dN :lua require'dap'.step_out()<CR>
-nnoremap <silent> <leader>b :lua require'dap'.toggle_breakpoint()<CR>
-nnoremap <silent> <leader>B :lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>
-nnoremap <silent> <leader>do :lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>
-nnoremap <silent><leader>dl :call ToggleQuickFix()<CR>
-nnoremap <silent> <leader>dr :lua require'dap'.repl.open()<CR>
-nnoremap <silent> <leader>dR :lua require'dap'.run_last()<CR>
 
 
 " Lua snippet for plugins 
@@ -218,7 +209,7 @@ require("luasnip.loaders.from_vscode").lazy_load()
       else
         fallback()
       end
-    end, { "i", "s" }),
+    end, { "i", "s","n" }),
 
     ["<S-Tab>"] = cmp.mapping(function(fallback)
       if cmp.visible() then
@@ -228,7 +219,7 @@ require("luasnip.loaders.from_vscode").lazy_load()
       else
         fallback()
       end
-    end, { "i", "s" }),
+    end, { "i", "s","n" }),
     }),
     sources = cmp.config.sources({
       { name = 'nvim_lsp' },
@@ -303,7 +294,7 @@ map("n", "<S-h>", "<cmd>bprevious<CR>", opts)
 -- Close current buffer  
 map("n","<S-q>","<cmd>bd<CR>",opts)
 -- Open new buffer , clashes with search mapping 
--- map("n","<S-n>","<cmd>enew<CR>",opts)
+map("n","<S-n><S-b>","<cmd>enew<CR>",opts)
 -- List existing buffers 
 map("n","<S-s>","<cmd>ls<CR>",opts)
 
@@ -323,49 +314,38 @@ map("n","<leader>n","<cmd>NvimTreeToggle<CR>",opts)
 -- Open Tagbar
 map("n","<leader>t","<cmd>TagbarToggle<CR>",opts)
 
+local widgets = require('dap.ui.widgets')
+
+--  Key mappings for DAP 
+map("n", "<leader>dc" ,"<cmd>:lua require'dap'.continue()<CR>",opts)
+map("n", "<leader>dn" ,"<cmd>:lua require'dap'.step_over()<CR>",opts)
+map("n", "<leader>ds" ,"<cmd>:lua require'dap'.step_into()<CR>",opts)
+map("n", "<leader>dN" ,"<cmd>:lua require'dap'.step_out()<CR>",opts)
+map("n", "<leader>b" ,"<cmd>:lua require'dap'.toggle_breakpoint()<CR>",opts)
+map("n", "<leader>B" ,"<cmd>:lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>",opts)
+map("n", "<leader>do" ,"<cmd>:lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>",opts)
+map("n","<leader>dbs" ,"<cmd>:call ToggleQuickFix()<CR>",opts)
+map("n", "<leader>dr" ,"<cmd>:lua require'dap'.repl.open()<CR>",opts)
+map("n", "<leader>dR" ,"<cmd>:lua require'dap'.run_last()<CR>",opts)
+map("n","<leader>dl","<cmd>:lua require('dap.ui.widgets').sidebar(require('dap.ui.widgets').scopes).open()<CR>",opts)
+
+
+
 -- Setting dashboard header
-  local home = os.getenv('HOME')
-  local db = require('dashboard')
-	db.custom_header = {
-\'',
-\'',
-\'',
-\'',
-\'',
-\'',
-\'',
-\'',
-\ ' ███╗   ██╗ ███████╗ ██████╗  ██╗   ██╗ ██╗ ███╗   ███╗',
-\ ' ████╗  ██║ ██╔════╝██╔═══██╗ ██║   ██║ ██║ ████╗ ████║',
-\ ' ██╔██╗ ██║ █████╗  ██║   ██║ ██║   ██║ ██║ ██╔████╔██║',
-\ ' ██║╚██╗██║ ██╔══╝  ██║   ██║ ╚██╗ ██╔╝ ██║ ██║╚██╔╝██║',
-\ ' ██║ ╚████║ ███████╗╚██████╔╝  ╚████╔╝  ██║ ██║ ╚═╝ ██║',
-\ ' ╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝',
-\'',
-\'',
-\'',
-\'',
-\'',
-\'',
-\'',
-\'',
-\}
-  db.preview_file_height = 12
-  db.preview_file_width = 80
-  db.custom_center = {
-      {icon = '  ',
-      desc = 'Latest session                          ',
-			action ='SessionLoad',
-      shortcut = 'SPC s l'},
-      {icon = '  ',
-      desc = 'Find  File                              ',
-      action = 'Telescope find_files find_command=rg,--hidden,--files',
-      shortcut = 'SPC f f'},
-    }
+local home = os.getenv('HOME')
+
+-- Linking the Header highlight to one of the Gruvbox highlight groups
+-- vim.api.nvim_set_hl(0,"DashboardHeader", {link = "GruvboxPurpleBold"})
 
  -- Setup mason.nvim
 local mason  = require('mason').setup()
-local mason_lspconfig = require('mason-lspconfig')
+local mason_lspconfig = require('mason-lspconfig') ; mason_lspconfig.setup()
+
+
+-- Improve vim setting for typescript
+ vim.g.markdown_fenced_languages = {
+   "ts=typescript"
+ }
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 local cmp_nvim_lsp =  require "cmp_nvim_lsp"
@@ -418,7 +398,50 @@ for index,server in ipairs(mason_lspconfig.get_installed_servers()) do
 	end
 
 -- Setting up nvim-tree
-require 'nvim-tree'.setup()
+
+-- disable netrw at the very start of your init.lua (strongly advised)
+vim.g.loaded_netrw = true
+vim.g.loaded_netrwPlugin = true
+
+-- set termguicolors to enable highlight groups
+vim.opt.termguicolors = true
+
+-- OR setup with some options
+require("nvim-tree").setup({
+	disable_netrw = true,
+	hijack_netrw = true,
+	hijack_directories = {
+		enable = true,
+		auto_open = true,
+	},
+  sort_by = "case_sensitive",
+  renderer = {
+    group_empty = true,
+  },
+  filters = {
+    dotfiles = true,
+  },
+})
+
+
+local function open_nvim_tree(data)
+
+	-- buffer is a directory
+	local directory = vim.fn.isdirectory(data.file) == 1
+
+	if not directory then 
+		return
+	end
+
+	-- change to the directory
+	vim.cmd.cd(data.file)
+
+	-- open the tree
+	require("nvim-tree.api").tree.open()
+
+end
+
+vim.api.nvim_create_autocmd({ "VimEnter" },{ callback = open_nvim_tree })
 
 -- Setting DAP codelldb
 
@@ -500,5 +523,9 @@ require("toggleterm").setup{
     border = 'single', --  other options supported by win open
   }
 }
+
+-- drop.nvim setup
+drop = require("drop")
+drop.setup()
 
 EOF

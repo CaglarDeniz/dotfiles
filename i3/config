@@ -31,15 +31,15 @@ client.background       #ffffff
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy --nofork
+exec_always --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+# exec --no-startup-id nm-applet
 
 # shortcut for launching firefox
 
-bindsym Mod4+w exec --no-startup-id firefox --browser
+bindsym Mod4+w exec --no-startup-id flatpak run com.brave.Browser &> /dev/null
 
 # disabling window titlebars, to get i3-gaps working 
 
@@ -59,19 +59,18 @@ default_border pixel 5
 focus_follows_mouse no 
 
 # Use pactl to adjust volume in PulseAudio.
-set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% 
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% 
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle 
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle 
 
 # use brightnessctl to adjust screen brightness 
 
-bindcode 173 exec --no-startup-id brightnessctl --quiet set 5%- && $refresh_i3status
-bindcode 171 exec --no-startup-id brightnessctl --quiet set +5% && $refresh_i3status
+bindcode 173 exec --no-startup-id brightnessctl --quiet set 5%- 
+bindcode 171 exec --no-startup-id brightnessctl --quiet set +5% 
 
-bindcode 232 exec --no-startup-id brightnessctl --quiet set 5%- && $refresh_i3status
-bindcode 233 exec --no-startup-id brightnessctl --quiet set +5% && $refresh_i3status
+bindcode 232 exec --no-startup-id brightnessctl --quiet set 5%- 
+bindcode 233 exec --no-startup-id brightnessctl --quiet set +5% 
 
 # use these keys for focus, movement, and resize directions when reaching for
 # the arrows is not convenient
@@ -92,13 +91,13 @@ bindsym Mod4+q kill
 # start dmenu (a program launcher)
 # bindsym Mod4+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
-bindsym Mod4+d exec --no-startup-id "rofi -show combi -combi-modi 'drun' -modi combi -show-icons "
+bindsym --release Mod4+d exec --no-startup-id "rofi -show combi -combi-modi 'drun' -modi combi -show-icons  > /dev/null 2>&1"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
-bindsym Mod4+Shift+d exec --no-startup-id "rofi -show combi -combi-modi 'run#filebrowser#ssh#window' -modi combi -show-icons"
+bindsym --release Mod4+Shift+d exec --no-startup-id "rofi -show combi -combi-modi 'run#filebrowser#ssh#window' -modi combi -show-icons > /dev/null 2>&1"
 
 # A calculator plugin for rofi, pretty cool
-bindsym Mod4+c exec --no-startup-id "rofi -show calc -modi calc -no-show-match -no-sort"
+#bindsym Mod4+c exec --no-startup-id "rofi -show calc -modi calc -no-show-match -no-sort"
 
 # change focus
 bindsym Mod4+$left focus left
@@ -161,7 +160,7 @@ bindsym Mod4+Shift+minus move scratchpad
 bindsym Mod4+minus scratchpad show
 
 # # Lock the screen with i3lock-fancy
-bindsym Ctrl+Mod1+l exec --no-startup-id i3lock-fancy --nofork
+bindsym Ctrl+Mod1+l exec --no-startup-id /usr/bin/i3lock-fancy --nofork
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -210,22 +209,46 @@ bindsym Mod4+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 # new shortcuts for resizing windows
 
 bindsym Mod4+y       resize shrink width 10 px 
-bindsym Mod4+u       resize grow height 10 px 
-bindsym Mod4+i         resize shrink height 10 px 
+bindsym Mod4+u       resize shrink height 10 px 
+bindsym Mod4+i         resize grow height 10 px 
 bindsym Mod4+o      resize grow width 10 px 
 
 # thunderbird shortcut
-bindsym Mod4+t		exec thunderbird
+bindsym Mod4+t exec --no-startup-id org.mozilla.Thunderbird
+
+# ranger shortcut 
+bindsym Mod4+r exec --no-startup-id kitty ranger --logfile ~/.config/ranger/log.txt /home/deniz
+
+# btop shortcut 
+bindsym Ctrl+Mod1+h exec --no-startup-id kitty btop 
+
+# full brightness shortcut
+bindsym Ctrl+Mod1+b exec --no-startup-id brightnessctl set +5%
+
+# keyboard light on shortcut
+bindsym Ctrl+Mod1+Up exec --no-startup-id asusctl -k low 
+
+# keyboard light off shortcut 
+bindsym Ctrl+Mod1+Down exec --no-startup-id asusctl -k off
+
+# ROG Control Center Shortcut
+bindcode 156 exec --no-startup-id rog-control-center
+
+# Zathura Shortcut
+bindsym Mod4+z exec --no-startup-id zathura
+
+# Hibernate Shortcut
+bindsym Ctrl+Mod4+l exec --no-startup-id systemctl hibernate
 
 # Screenshots
-bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date)"
-bindsym Mod4+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date)"
-bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/$(date)"
+bindcode 72 exec --no-startup-id maim "/home/$USER/Pictures/$(date)" 2> /dev/null
+bindcode Mod4+72 exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date)" 2> /dev/null
+bindcode Shift+72 exec --no-startup-id maim --select "/home/$USER/Pictures/$(date)" 2> /dev/null
 
-## Clipboard Screenshots
-bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
-bindsym Ctrl+Mod4+Print exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
-bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
+## Clipboard Screenshoto
+bindcode Ctrl+72 exec --no-startup-id maim  2> /dev/null | xclip -selection clipboard -t image/png
+bindcode Ctrl+Mod4+72 exec --no-startup-id maim --window $(xdotool getactivewindow)  2> /dev/null | xclip -selection clipboard -t image/png
+bindcode Ctrl+Shift+72 exec --no-startup-id maim --select  2> /dev/null | xclip -selection clipboard -t image/png
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -255,13 +278,13 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection c
 # }
 
 # changing wallpaper
-exec_always feh --bg-fill ~/.config/i3/elif_wallpaper.png 
-
-#starting picom for transparency
-exec_always --no-startup-id "picom --config ~/.config/picom.conf"
+exec_always feh --bg-fill ~/.config/i3/5.jpg 
 
 # starting polybar
-exec_always --no-startup-id ~/.config/polybar/launch.sh
+exec_always --no-startup-id ~/.config/polybar/launch.sh --forest
+
+# Adding an extra lxc bridge
+exec_always --no-startup-id sudo ~/.local/bin/add_lxcbr1
 
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a

@@ -1,0 +1,1063 @@
+15:15:40 INFO ranger version: ranger 1.9.3
+15:15:40 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+15:15:40 INFO Locale: en_US.UTF-8
+15:15:40 INFO Process ID: 28658
+15:16:19 INFO ranger version: ranger 1.9.3
+15:16:19 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+15:16:19 INFO Locale: en_US.UTF-8
+15:16:19 INFO Process ID: 28831
+15:16:20 INFO ranger version: ranger 1.9.3
+15:16:20 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+15:16:20 INFO Locale: en_US.UTF-8
+15:16:20 INFO Process ID: 28832
+15:16:25 INFO ranger version: ranger 1.9.3
+15:16:25 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+15:16:25 INFO Locale: en_US.UTF-8
+15:16:25 INFO Process ID: 28857
+15:20:00 INFO ranger version: ranger 1.9.3
+15:20:00 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+15:20:00 INFO Locale: en_US.UTF-8
+15:20:00 INFO Process ID: 29793
+15:20:02 INFO ranger version: ranger 1.9.3
+15:20:02 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+15:20:02 INFO Locale: en_US.UTF-8
+15:20:02 INFO Process ID: 29840
+15:20:03 INFO ranger version: ranger 1.9.3
+15:20:03 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+15:20:03 INFO Locale: en_US.UTF-8
+15:20:03 INFO Process ID: 29887
+15:20:04 INFO ranger version: ranger 1.9.3
+15:20:04 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+15:20:04 INFO Locale: en_US.UTF-8
+15:20:04 INFO Process ID: 29934
+15:20:05 INFO ranger version: ranger 1.9.3
+15:20:05 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+15:20:05 INFO Locale: en_US.UTF-8
+15:20:05 INFO Process ID: 29981
+15:20:13 INFO ranger version: ranger 1.9.3
+15:20:13 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+15:20:13 INFO Locale: en_US.UTF-8
+15:20:13 INFO Process ID: 30080
+15:21:50 INFO ranger version: ranger 1.9.3
+15:21:50 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+15:21:50 INFO Locale: en_US.UTF-8
+15:21:50 INFO Process ID: 30844
+16:44:53 INFO ranger version: ranger 1.9.3
+16:44:53 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+16:44:53 INFO Locale: en_US.UTF-8
+16:44:53 INFO Process ID: 4001
+14:39:51 INFO ranger version: ranger 1.9.3
+14:39:51 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+14:39:51 INFO Locale: en_US.UTF-8
+14:39:51 INFO Process ID: 2017
+14:42:36 INFO ranger version: ranger 1.9.3
+14:42:36 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+14:42:36 INFO Locale: en_US.UTF-8
+14:42:36 INFO Process ID: 3635
+13:39:22 INFO ranger version: ranger 1.9.3
+13:39:22 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+13:39:22 INFO Locale: en_US.UTF-8
+13:39:22 INFO Process ID: 29244
+14:58:58 INFO ranger version: ranger 1.9.3
+14:58:58 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+14:58:58 INFO Locale: en_US.UTF-8
+14:58:58 INFO Process ID: 30967
+18:32:24 INFO ranger version: ranger 1.9.3
+18:32:24 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+18:32:24 INFO Locale: en_US.UTF-8
+18:32:24 INFO Process ID: 2553
+18:50:37 INFO ranger version: ranger 1.9.3
+18:50:37 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+18:50:37 INFO Locale: en_US.UTF-8
+18:50:37 INFO Process ID: 3515
+16:08:52 INFO ranger version: ranger 1.9.3
+16:08:52 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+16:08:52 INFO Locale: en_US.UTF-8
+16:08:52 INFO Process ID: 4876
+16:11:07 INFO ranger version: ranger 1.9.3
+16:11:07 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+16:11:07 INFO Locale: en_US.UTF-8
+16:11:07 INFO Process ID: 5267
+16:14:25 INFO ranger version: ranger 1.9.3
+16:14:25 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+16:14:25 INFO Locale: en_US.UTF-8
+16:14:25 INFO Process ID: 5841
+16:14:36 INFO Notification: Deleting 2024FederalReturn.pdf-20240212T231856Z-001.zip!
+10:27:59 INFO ranger version: ranger 1.9.3
+10:27:59 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+10:27:59 INFO Locale: en_US.UTF-8
+10:27:59 INFO Process ID: 1740
+11:59:44 INFO ranger version: ranger 1.9.3
+11:59:44 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+11:59:44 INFO Locale: en_US.UTF-8
+11:59:44 INFO Process ID: 24501
+12:05:22 INFO ranger version: ranger 1.9.3
+12:05:22 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+12:05:22 INFO Locale: en_US.UTF-8
+12:05:22 INFO Process ID: 25767
+12:30:10 INFO ranger version: ranger 1.9.3
+12:30:10 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+12:30:10 INFO Locale: en_US.UTF-8
+12:30:10 INFO Process ID: 31915
+13:08:08 INFO ranger version: ranger 1.9.3
+13:08:08 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+13:08:08 INFO Locale: en_US.UTF-8
+13:08:08 INFO Process ID: 37312
+15:43:02 INFO ranger version: ranger 1.9.3
+15:43:02 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+15:43:02 INFO Locale: en_US.UTF-8
+15:43:02 INFO Process ID: 20193
+16:21:49 INFO ranger version: ranger 1.9.3
+16:21:49 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+16:21:49 INFO Locale: en_US.UTF-8
+16:21:49 INFO Process ID: 30155
+16:28:56 INFO ranger version: ranger 1.9.3
+16:28:56 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+16:28:56 INFO Locale: en_US.UTF-8
+16:28:56 INFO Process ID: 31109
+16:43:49 INFO ranger version: ranger 1.9.3
+16:43:49 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+16:43:49 INFO Locale: en_US.UTF-8
+16:43:49 INFO Process ID: 33561
+16:54:13 INFO ranger version: ranger 1.9.3
+16:54:13 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+16:54:13 INFO Locale: en_US.UTF-8
+16:54:13 INFO Process ID: 34666
+17:22:48 INFO ranger version: ranger 1.9.3
+17:22:48 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+17:22:48 INFO Locale: en_US.UTF-8
+17:22:48 INFO Process ID: 36818
+17:23:56 ERRO Notification: Syntax: rename <newname>
+16:01:46 INFO ranger version: ranger 1.9.3
+16:01:46 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+16:01:46 INFO Locale: en_US.UTF-8
+16:01:46 INFO Process ID: 2138
+16:05:47 INFO ranger version: ranger 1.9.3
+16:05:47 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+16:05:47 INFO Locale: en_US.UTF-8
+16:05:47 INFO Process ID: 2511
+20:13:59 INFO ranger version: ranger 1.9.3
+20:13:59 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+20:13:59 INFO Locale: en_US.UTF-8
+20:13:59 INFO Process ID: 8151
+20:14:08 INFO ranger version: ranger 1.9.3
+20:14:08 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+20:14:08 INFO Locale: en_US.UTF-8
+20:14:08 INFO Process ID: 8201
+20:15:29 INFO ranger version: ranger 1.9.3
+20:15:29 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+20:15:29 INFO Locale: en_US.UTF-8
+20:15:29 INFO Process ID: 8512
+21:35:25 INFO ranger version: ranger 1.9.3
+21:35:25 INFO Python version: 3.11.7 (main, Jan 29 2024, 16:03:57) [GCC 13.2.1 20230801]
+21:35:25 INFO Locale: en_US.UTF-8
+21:35:25 INFO Process ID: 17954
+13:10:05 INFO ranger version: ranger 1.9.3
+13:10:05 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+13:10:05 INFO Locale: en_US.UTF-8
+13:10:05 INFO Process ID: 5964
+21:08:07 INFO ranger version: ranger 1.9.3
+21:08:07 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+21:08:07 INFO Locale: en_US.UTF-8
+21:08:07 INFO Process ID: 18014
+21:25:02 INFO ranger version: ranger 1.9.3
+21:25:02 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+21:25:02 INFO Locale: en_US.UTF-8
+21:25:02 INFO Process ID: 18982
+22:14:13 INFO ranger version: ranger 1.9.3
+22:14:13 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+22:14:13 INFO Locale: en_US.UTF-8
+22:14:13 INFO Process ID: 21798
+08:20:55 INFO ranger version: ranger 1.9.3
+08:20:55 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+08:20:55 INFO Locale: en_US.UTF-8
+08:20:55 INFO Process ID: 2066
+13:36:12 INFO ranger version: ranger 1.9.3
+13:36:12 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+13:36:12 INFO Locale: en_US.UTF-8
+13:36:12 INFO Process ID: 5251
+14:01:55 INFO ranger version: ranger 1.9.3
+14:01:55 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+14:01:55 INFO Locale: en_US.UTF-8
+14:01:55 INFO Process ID: 7854
+14:02:17 INFO Notification: Too many files: Disabling open_all_images temporarily.
+14:02:18 INFO Notification: Too many files: Disabling open_all_images temporarily.
+14:02:22 INFO Notification: Too many files: Disabling open_all_images temporarily.
+14:02:25 INFO Notification: Too many files: Disabling open_all_images temporarily.
+14:02:27 ERRO Notification: Command not found: `open'
+14:02:44 ERRO Notification: [Errno 5] Input/output error
+14:02:44 ERRO [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.11/site-packages/ranger/ext/img_display.py", line 672, in draw
+    resp += self.stdbin.read(1)
+            ^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 5] Input/output error
+14:02:45 CRIT ranger version: ranger 1.9.3
+Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+Locale: en_US.UTF-8
+Current file: '/home/deniz/research/grid_generation/grid_generation/src/vq_vae_celeba/dataset/celeba/img_align_celeba/000003.jpg'
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/ranger/core/fm.py", line 383, in loop
+    ui.handle_input()
+  File "/usr/lib/python3.11/site-packages/ranger/gui/ui.py", line 269, in handle_input
+    self.fm.exit()
+  File "/usr/lib/python3.11/site-packages/ranger/core/actions.py", line 63, in exit
+    raise SystemExit
+SystemExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/ranger/core/main.py", line 201, in main
+    fm.loop()
+  File "/usr/lib/python3.11/site-packages/ranger/core/fm.py", line 401, in loop
+    self.image_displayer.quit()
+  File "/usr/lib/python3.11/site-packages/ranger/ext/img_display.py", line 711, in quit
+    self.clear(0, 0, 0, 0)
+  File "/usr/lib/python3.11/site-packages/ranger/ext/img_display.py", line 685, in clear
+    self.stdbout.flush()
+OSError: [Errno 5] Input/output error
+
+ranger crashed. Please report this traceback at:
+https://github.com/ranger/ranger/issues
+
+14:02:47 CRIT ranger version: ranger 1.9.3
+Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+Locale: en_US.UTF-8
+Current file: '/home/deniz/research/grid_generation/grid_generation/src/vq_vae_celeba/dataset/celeba/img_align_celeba/000002.jpg'
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/ranger/core/fm.py", line 383, in loop
+    ui.handle_input()
+  File "/usr/lib/python3.11/site-packages/ranger/gui/ui.py", line 269, in handle_input
+    self.fm.exit()
+  File "/usr/lib/python3.11/site-packages/ranger/core/actions.py", line 63, in exit
+    raise SystemExit
+SystemExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/ranger/core/main.py", line 201, in main
+    fm.loop()
+  File "/usr/lib/python3.11/site-packages/ranger/core/fm.py", line 401, in loop
+    self.image_displayer.quit()
+  File "/usr/lib/python3.11/site-packages/ranger/ext/img_display.py", line 711, in quit
+    self.clear(0, 0, 0, 0)
+  File "/usr/lib/python3.11/site-packages/ranger/ext/img_display.py", line 685, in clear
+    self.stdbout.flush()
+OSError: [Errno 5] Input/output error
+
+ranger crashed. Please report this traceback at:
+https://github.com/ranger/ranger/issues
+
+14:02:49 CRIT ranger version: ranger 1.9.3
+Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+Locale: en_US.UTF-8
+Current file: '/home/deniz/research/grid_generation/grid_generation/src/vq_vae_celeba/dataset/celeba/img_align_celeba/000001.jpg'
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/ranger/core/fm.py", line 383, in loop
+    ui.handle_input()
+  File "/usr/lib/python3.11/site-packages/ranger/gui/ui.py", line 269, in handle_input
+    self.fm.exit()
+  File "/usr/lib/python3.11/site-packages/ranger/core/actions.py", line 63, in exit
+    raise SystemExit
+SystemExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/ranger/core/main.py", line 201, in main
+    fm.loop()
+  File "/usr/lib/python3.11/site-packages/ranger/core/fm.py", line 401, in loop
+    self.image_displayer.quit()
+  File "/usr/lib/python3.11/site-packages/ranger/ext/img_display.py", line 711, in quit
+    self.clear(0, 0, 0, 0)
+  File "/usr/lib/python3.11/site-packages/ranger/ext/img_display.py", line 685, in clear
+    self.stdbout.flush()
+OSError: [Errno 5] Input/output error
+
+ranger crashed. Please report this traceback at:
+https://github.com/ranger/ranger/issues
+
+14:22:18 INFO ranger version: ranger 1.9.3
+14:22:18 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+14:22:18 INFO Locale: en_US.UTF-8
+14:22:18 INFO Process ID: 27165
+14:08:37 INFO ranger version: ranger 1.9.3
+14:08:37 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+14:08:37 INFO Locale: en_US.UTF-8
+14:08:37 INFO Process ID: 10632
+14:57:39 INFO ranger version: ranger 1.9.3
+14:57:39 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+14:57:39 INFO Locale: en_US.UTF-8
+14:57:39 INFO Process ID: 32092
+15:02:58 INFO ranger version: ranger 1.9.3
+15:02:58 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+15:02:58 INFO Locale: en_US.UTF-8
+15:02:58 INFO Process ID: 33215
+15:03:31 ERRO Notification: Command not found: `open'
+15:03:31 ERRO Notification: Command not found: `open'
+15:03:31 ERRO Notification: Command not found: `open'
+15:03:32 ERRO Notification: Command not found: `open'
+15:03:32 ERRO Notification: Command not found: `open'
+15:03:32 ERRO Notification: Command not found: `open'
+15:03:32 ERRO Notification: Command not found: `open'
+15:03:33 ERRO Notification: Command not found: `open'
+15:03:33 ERRO Notification: Command not found: `open'
+15:03:43 ERRO Notification: Command not found: `open'
+15:04:34 ERRO Notification: Command not found: `shel'
+15:05:39 INFO ranger version: ranger 1.9.3
+15:05:39 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+15:05:39 INFO Locale: en_US.UTF-8
+15:05:39 INFO Process ID: 33684
+19:10:12 INFO ranger version: ranger 1.9.3
+19:10:12 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+19:10:12 INFO Locale: en_US.UTF-8
+19:10:12 INFO Process ID: 54288
+19:36:50 INFO ranger version: ranger 1.9.3
+19:36:50 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+19:36:50 INFO Locale: en_US.UTF-8
+19:36:50 INFO Process ID: 58225
+13:44:39 INFO ranger version: ranger 1.9.3
+13:44:39 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+13:44:39 INFO Locale: en_US.UTF-8
+13:44:39 INFO Process ID: 24956
+13:44:45 INFO Notification: Deleting strace.txt!
+13:44:46 INFO Notification: Deleting strace.log!
+13:44:47 INFO Notification: Deleting softlink!
+13:44:48 INFO Notification: Deleting demo.txt!
+13:54:57 INFO ranger version: ranger 1.9.3
+13:54:57 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+13:54:57 INFO Locale: en_US.UTF-8
+13:54:57 INFO Process ID: 26058
+14:29:36 INFO ranger version: ranger 1.9.3
+14:29:36 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+14:29:36 INFO Locale: en_US.UTF-8
+14:29:36 INFO Process ID: 12977
+17:51:03 INFO ranger version: ranger 1.9.3
+17:51:03 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+17:51:03 INFO Locale: en_US.UTF-8
+17:51:03 INFO Process ID: 36329
+12:02:34 INFO ranger version: ranger 1.9.3
+12:02:34 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+12:02:34 INFO Locale: en_US.UTF-8
+12:02:34 INFO Process ID: 9401
+15:10:58 INFO ranger version: ranger 1.9.3
+15:10:58 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+15:10:58 INFO Locale: en_US.UTF-8
+15:10:58 INFO Process ID: 26842
+19:52:28 INFO ranger version: ranger 1.9.3
+19:52:28 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+19:52:28 INFO Locale: en_US.UTF-8
+19:52:28 INFO Process ID: 32327
+14:28:13 INFO ranger version: ranger 1.9.3
+14:28:13 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+14:28:13 INFO Locale: en_US.UTF-8
+14:28:13 INFO Process ID: 33413
+15:02:32 INFO ranger version: ranger 1.9.3
+15:02:32 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+15:02:32 INFO Locale: en_US.UTF-8
+15:02:32 INFO Process ID: 35192
+12:41:38 INFO ranger version: ranger 1.9.3
+12:41:38 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+12:41:38 INFO Locale: en_US.UTF-8
+12:41:38 INFO Process ID: 4247
+16:03:27 INFO ranger version: ranger 1.9.3
+16:03:27 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+16:03:27 INFO Locale: en_US.UTF-8
+16:03:27 INFO Process ID: 2712
+17:06:43 INFO ranger version: ranger 1.9.3
+17:06:43 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+17:06:43 INFO Locale: en_US.UTF-8
+17:06:43 INFO Process ID: 4876
+17:51:00 INFO ranger version: ranger 1.9.3
+17:51:00 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+17:51:00 INFO Locale: en_US.UTF-8
+17:51:00 INFO Process ID: 10118
+17:30:22 INFO ranger version: ranger 1.9.3
+17:30:22 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+17:30:22 INFO Locale: en_US.UTF-8
+17:30:22 INFO Process ID: 3316
+14:21:17 INFO ranger version: ranger 1.9.3
+14:21:17 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+14:21:17 INFO Locale: en_US.UTF-8
+14:21:17 INFO Process ID: 5819
+16:13:42 INFO ranger version: ranger 1.9.3
+16:13:42 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+16:13:42 INFO Locale: en_US.UTF-8
+16:13:42 INFO Process ID: 35274
+13:58:20 INFO ranger version: ranger 1.9.3
+13:58:20 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+13:58:20 INFO Locale: en_US.UTF-8
+13:58:20 INFO Process ID: 2823
+13:58:44 INFO Notification: Deleting Slide1.jpg, Slide2.jpg, Slide3.jpg, Slide4.jpg, Slide5.jpg, Slide6.jpg, Slide7.jpg, Slide8.jpg, Slide9.jpg, Slide10.jpg, Slide11.jpg, Slide12.jpg, Slide13.jpg, Slide14.jpg, Slide15.jpg, Slide16.jpg!
+13:58:50 INFO Notification: Deleting yuzu_installer.log!
+13:58:56 INFO Notification: Deleting fs_figure.png!
+16:11:36 INFO ranger version: ranger 1.9.3
+16:11:36 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+16:11:36 INFO Locale: en_US.UTF-8
+16:11:36 INFO Process ID: 20151
+16:11:39 INFO Notification: Deleting interrupts.log!
+16:37:45 INFO ranger version: ranger 1.9.3
+16:37:45 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+16:37:45 INFO Locale: en_US.UTF-8
+16:37:45 INFO Process ID: 23248
+14:55:35 INFO ranger version: ranger 1.9.3
+14:55:35 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+14:55:35 INFO Locale: en_US.UTF-8
+14:55:35 INFO Process ID: 3722
+14:27:16 INFO ranger version: ranger 1.9.3
+14:27:16 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+14:27:16 INFO Locale: en_US.UTF-8
+14:27:16 INFO Process ID: 15969
+15:23:02 INFO ranger version: ranger 1.9.3
+15:23:02 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+15:23:02 INFO Locale: en_US.UTF-8
+15:23:02 INFO Process ID: 20024
+11:40:03 INFO ranger version: ranger 1.9.3
+11:40:03 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+11:40:03 INFO Locale: en_US.UTF-8
+11:40:03 INFO Process ID: 7512
+11:58:28 INFO ranger version: ranger 1.9.3
+11:58:28 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+11:58:28 INFO Locale: en_US.UTF-8
+11:58:28 INFO Process ID: 17079
+13:25:27 INFO ranger version: ranger 1.9.3
+13:25:27 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+13:25:27 INFO Locale: en_US.UTF-8
+13:25:27 INFO Process ID: 3994
+17:14:44 INFO ranger version: ranger 1.9.3
+17:14:44 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+17:14:44 INFO Locale: en_US.UTF-8
+17:14:44 INFO Process ID: 15296
+17:23:27 INFO ranger version: ranger 1.9.3
+17:23:27 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+17:23:27 INFO Locale: en_US.UTF-8
+17:23:27 INFO Process ID: 15632
+19:24:05 INFO ranger version: ranger 1.9.3
+19:24:05 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+19:24:05 INFO Locale: en_US.UTF-8
+19:24:05 INFO Process ID: 1348
+19:29:55 INFO ranger version: ranger 1.9.3
+19:29:55 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+19:29:55 INFO Locale: en_US.UTF-8
+19:29:55 INFO Process ID: 3841
+01:03:01 INFO ranger version: ranger 1.9.3
+01:03:01 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+01:03:01 INFO Locale: en_US.UTF-8
+01:03:01 INFO Process ID: 1340
+01:08:32 INFO ranger version: ranger 1.9.3
+01:08:32 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+01:08:32 INFO Locale: en_US.UTF-8
+01:08:32 INFO Process ID: 3258
+01:08:51 INFO Notification: Deleting delay_and_sum-1.txt!
+15:04:59 INFO ranger version: ranger 1.9.3
+15:04:59 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+15:04:59 INFO Locale: en_US.UTF-8
+15:04:59 INFO Process ID: 3133
+15:17:48 INFO ranger version: ranger 1.9.3
+15:17:48 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+15:17:48 INFO Locale: en_US.UTF-8
+15:17:48 INFO Process ID: 3418
+15:18:20 ERRO Notification: Command not found: `/home/deniz/.local/'
+18:15:24 INFO ranger version: ranger 1.9.3
+18:15:24 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+18:15:24 INFO Locale: en_US.UTF-8
+18:15:24 INFO Process ID: 17649
+18:35:51 INFO ranger version: ranger 1.9.3
+18:35:51 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+18:35:51 INFO Locale: en_US.UTF-8
+18:35:51 INFO Process ID: 19037
+12:42:44 INFO ranger version: ranger 1.9.3
+12:42:44 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+12:42:44 INFO Locale: en_US.UTF-8
+12:42:44 INFO Process ID: 3566
+17:20:00 INFO ranger version: ranger 1.9.3
+17:20:00 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+17:20:00 INFO Locale: en_US.UTF-8
+17:20:00 INFO Process ID: 18368
+17:21:00 INFO ranger version: ranger 1.9.3
+17:21:00 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+17:21:00 INFO Locale: en_US.UTF-8
+17:21:00 INFO Process ID: 18565
+22:18:24 INFO ranger version: ranger 1.9.3
+22:18:24 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+22:18:24 INFO Locale: en_US.UTF-8
+22:18:24 INFO Process ID: 2021
+12:24:18 INFO ranger version: ranger 1.9.3
+12:24:18 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+12:24:18 INFO Locale: en_US.UTF-8
+12:24:18 INFO Process ID: 7239
+14:49:53 INFO ranger version: ranger 1.9.3
+14:49:53 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+14:49:53 INFO Locale: en_US.UTF-8
+14:49:53 INFO Process ID: 1430
+17:12:21 INFO ranger version: ranger 1.9.3
+17:12:21 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+17:12:21 INFO Locale: en_US.UTF-8
+17:12:21 INFO Process ID: 7477
+17:47:14 INFO ranger version: ranger 1.9.3
+17:47:14 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+17:47:14 INFO Locale: en_US.UTF-8
+17:47:14 INFO Process ID: 9971
+13:24:08 INFO ranger version: ranger 1.9.3
+13:24:08 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+13:24:08 INFO Locale: en_US.UTF-8
+13:24:08 INFO Process ID: 3726
+14:29:51 INFO ranger version: ranger 1.9.3
+14:29:51 INFO Python version: 3.11.8 (main, Feb 12 2024, 14:50:05) [GCC 13.2.1 20230801]
+14:29:51 INFO Locale: en_US.UTF-8
+14:29:51 INFO Process ID: 16539
+16:24:00 INFO ranger version: ranger 1.9.3
+16:24:00 INFO Python version: 3.12.3 (main, Apr 23 2024, 09:16:07) [GCC 13.2.1 20240417]
+16:24:00 INFO Locale: C.UTF-8
+16:24:00 INFO Process ID: 105141
+16:08:42 INFO ranger version: ranger 1.9.3
+16:08:42 INFO Python version: 3.12.3 (main, Apr 23 2024, 09:16:07) [GCC 13.2.1 20240417]
+16:08:42 INFO Locale: C.UTF-8
+16:08:42 INFO Process ID: 17152
+14:03:03 INFO ranger version: ranger 1.9.3
+14:03:03 INFO Python version: 3.12.3 (main, Apr 23 2024, 09:16:07) [GCC 13.2.1 20240417]
+14:03:03 INFO Locale: C.UTF-8
+14:03:03 INFO Process ID: 25347
+17:56:07 INFO ranger version: ranger 1.9.3
+17:56:07 INFO Python version: 3.12.3 (main, Apr 23 2024, 09:16:07) [GCC 13.2.1 20240417]
+17:56:07 INFO Locale: C.UTF-8
+17:56:07 INFO Process ID: 7089
+17:56:11 ERRO Notification: Image previews in kitty require PIL (pillow)
+17:56:11 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+17:56:14 ERRO Notification: Image previews in kitty require PIL (pillow)
+17:56:14 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+17:56:14 ERRO Notification: Image previews in kitty require PIL (pillow)
+17:56:14 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+17:56:18 ERRO Notification: Image previews in kitty require PIL (pillow)
+17:56:18 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+16:31:42 INFO ranger version: ranger 1.9.3
+16:31:42 INFO Python version: 3.12.3 (main, Apr 23 2024, 09:16:07) [GCC 13.2.1 20240417]
+16:31:42 INFO Locale: C.UTF-8
+16:31:42 INFO Process ID: 248884
+16:31:51 ERRO Notification: Syntax: rename <newname>
+15:32:07 INFO ranger version: ranger 1.9.3
+15:32:07 INFO Python version: 3.12.3 (main, Apr 23 2024, 09:16:07) [GCC 13.2.1 20240417]
+15:32:07 INFO Locale: C.UTF-8
+15:32:07 INFO Process ID: 9586
+05:44:12 INFO ranger version: ranger 1.9.3
+05:44:12 INFO Python version: 3.12.3 (main, Apr 23 2024, 09:16:07) [GCC 13.2.1 20240417]
+05:44:12 INFO Locale: C.UTF-8
+05:44:12 INFO Process ID: 68439
+15:12:19 INFO ranger version: ranger 1.9.3
+15:12:19 INFO Python version: 3.12.3 (main, Apr 23 2024, 09:16:07) [GCC 13.2.1 20240417]
+15:12:19 INFO Locale: C.UTF-8
+15:12:19 INFO Process ID: 37056
+15:12:22 INFO Notification: Deleting strace.log!
+15:12:42 ERRO Notification: file/directory exists!
+15:13:24 INFO Notification: Deleting TOR Video!
+09:19:55 INFO ranger version: ranger 1.9.3
+09:19:55 INFO Python version: 3.12.3 (main, Apr 23 2024, 09:16:07) [GCC 13.2.1 20240417]
+09:19:55 INFO Locale: C.UTF-8
+09:19:55 INFO Process ID: 123456
+09:20:10 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:10 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:11 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:11 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:13 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:13 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:15 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:15 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:16 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:16 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:17 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:17 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:17 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:17 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:17 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:17 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:18 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:18 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:18 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:18 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:19 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:19 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:19 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:19 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:20 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:20 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:20 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:20 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:20 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:20 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:20 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:20 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:20 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:20 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:20 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:20 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:21 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:21 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:21 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:21 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:20:28 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:20:28 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:22:04 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:22:04 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:22:06 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:22:06 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:22:07 ERRO Notification: Image previews in kitty require PIL (pillow)
+09:22:07 ERRO Image previews in kitty require PIL (pillow)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 599, in _late_init
+    import PIL.Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/site-packages/ranger/gui/widgets/pager.py", line 118, in draw_image
+    self.fm.image_displayer.draw(self.image, self.x, self.y,
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 623, in draw
+    self._late_init()
+  File "/usr/lib/python3.12/site-packages/ranger/ext/img_display.py", line 602, in _late_init
+    raise ImageDisplayError("Image previews in kitty require PIL (pillow)")
+ranger.ext.img_display.ImageDisplayError: Image previews in kitty require PIL (pillow)
+09:23:32 INFO ranger version: ranger 1.9.3
+09:23:32 INFO Python version: 3.12.3 (main, Apr 23 2024, 09:16:07) [GCC 13.2.1 20240417]
+09:23:32 INFO Locale: C.UTF-8
+09:23:32 INFO Process ID: 124725
+18:51:05 INFO ranger version: ranger 1.9.3
+18:51:05 INFO Python version: 3.12.3 (main, Apr 23 2024, 09:16:07) [GCC 13.2.1 20240417]
+18:51:05 INFO Locale: C.UTF-8
+18:51:05 INFO Process ID: 3009
+13:33:17 INFO ranger version: ranger 1.9.3
+13:33:17 INFO Python version: 3.12.4 (main, Jun  7 2024, 06:33:07) [GCC 14.1.1 20240522]
+13:33:17 INFO Locale: C.UTF-8
+13:33:17 INFO Process ID: 4935
+14:10:11 INFO ranger version: ranger 1.9.3
+14:10:11 INFO Python version: 3.12.4 (main, Jun  7 2024, 06:33:07) [GCC 14.1.1 20240522]
+14:10:11 INFO Locale: C.UTF-8
+14:10:11 INFO Process ID: 16149
+14:27:43 INFO ranger version: ranger 1.9.3
+14:27:43 INFO Python version: 3.12.4 (main, Jun  7 2024, 06:33:07) [GCC 14.1.1 20240522]
+14:27:43 INFO Locale: C.UTF-8
+14:27:43 INFO Process ID: 20369
+13:45:53 INFO ranger version: ranger 1.9.3
+13:45:53 INFO Python version: 3.12.4 (main, Jun  7 2024, 06:33:07) [GCC 14.1.1 20240522]
+13:45:53 INFO Locale: C.UTF-8
+13:45:53 INFO Process ID: 11711
+13:46:39 INFO ranger version: ranger 1.9.3
+13:46:39 INFO Python version: 3.12.4 (main, Jun  7 2024, 06:33:07) [GCC 14.1.1 20240522]
+13:46:39 INFO Locale: C.UTF-8
+13:46:39 INFO Process ID: 11847
+14:28:32 INFO ranger version: ranger 1.9.3
+14:28:32 INFO Python version: 3.12.4 (main, Jun  7 2024, 06:33:07) [GCC 14.1.1 20240522]
+14:28:32 INFO Locale: C.UTF-8
+14:28:32 INFO Process ID: 16725
