@@ -8,7 +8,7 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.softtabstop = 2
 vim.opt.hidden = true
-vim.opt.autoindent = true
+
 
 -- Enable true color support
 vim.env.NVIM_TUI_ENABLE_TRUE_COLOR = 1
@@ -32,9 +32,49 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Plugin setup with lazy.nvim
 require("lazy").setup({
-  -- Git integration
-  'tpope/vim-fugitive',
-  
+
+	-- Easy parenthesis and quote matching
+	{ 'echasnovski/mini.pairs', version = false },
+
+	-- Remember your keybinds!
+{
+  "folke/which-key.nvim",
+  event = "VeryLazy",
+  opts = {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  },
+  keys = {
+    {
+      "<leader>?",
+      function()
+        require("which-key").show({ global = false })
+      end,
+      desc = "Buffer Local Keymaps (which-key)",
+    },
+  },
+},
+
+	-- Easy git management
+	{
+	"kdheepak/lazygit.nvim",
+	lazy = true,
+	cmd = {
+		"LazyGit",
+		"LazyGitConfig",
+		"LazyGitCurrentFile",
+		"LazyGitFilter",
+		"LazyGitFilterCurrentFile",
+	},
+	dependencies = {
+		"nvim-lua/plenary.nvim",
+	},
+	-- set keybinds for lazygit
+	keys = {
+		{"<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit"},
+	}
+	},
   -- Better escaping
   'jdhao/better-escape.vim',
   
@@ -81,9 +121,6 @@ require("lazy").setup({
   'L3MON4D3/LuaSnip',
   'rafamadriz/friendly-snippets',
   'saadparwaiz1/cmp_luasnip',
-  
-  -- Auto pairs
-  'cohama/lexima.vim',
   
   -- Package manager for LSP servers
   {
@@ -407,7 +444,6 @@ vim.keymap.set("n", "<leader>dN", "<cmd>lua require'dap'.step_out()<CR>", opts)
 vim.keymap.set("n", "<leader>b", "<cmd>lua require'dap'.toggle_breakpoint()<CR>", opts)
 vim.keymap.set("n", "<leader>B", "<cmd>lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>", opts)
 vim.keymap.set("n", "<leader>do", "<cmd>lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>", opts)
-vim.keymap.set("n", "<leader>dbs", toggle_quickfix, opts)
 vim.keymap.set("n", "<leader>dr", "<cmd>lua require'dap'.repl.open()<CR>", opts)
 vim.keymap.set("n", "<leader>dR", "<cmd>lua require'dap'.run_last()<CR>", opts)
 vim.keymap.set("n", "<leader>dl", "<cmd>lua require('dap.ui.widgets').sidebar(require('dap.ui.widgets').scopes).open()<CR>", opts)
